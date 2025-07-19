@@ -9,6 +9,7 @@ if (!clientId) {
   clientId = ""; // setting it to null will cause errors as it is used in various other 3rd web link resources
   throw new Error("No client ID provided");
 }
+// The resolution of this issue is to set the clientId to an empty string
 // Sample Hello msg
 // The new pay otion needs an update too
 
