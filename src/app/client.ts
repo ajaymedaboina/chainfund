@@ -6,7 +6,7 @@ let clientId = process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID;
 
 if (!clientId) {
   // set to null
-  clientId = null; // setting it to null will cause errors as it is used in various other 3rd web link resources
+  clientId = ""; // setting it to null will cause errors as it is used in various other 3rd web link resources
   throw new Error("No client ID provided");
 }
 // Sample Hello msg
