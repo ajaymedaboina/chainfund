@@ -6,7 +6,7 @@ let clientId = process.env.NEXT_PUBLIC_TEMPLATE_CLIENT_ID;
 
 if (!clientId) {
   // set to null
-  clientId = null;
+  clientId = "";
   throw new Error("No client ID provided");
 }
 // Sample Hello msg
