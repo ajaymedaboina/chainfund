@@ -8,6 +8,7 @@ if (!clientId) {
   throw new Error("No client ID provided");
 }
 // Sample Hello msg
+// The new pay otion needs an update too
 
 export const client = createThirdwebClient({
   clientId: clientId,
